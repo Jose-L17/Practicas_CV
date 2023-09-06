@@ -1,0 +1,99 @@
+.Caja {
+  height: 100%;
+  width: 100%;
+  align-content: center;
+  justify-items: center;
+}
+
+.Caja_Header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin:0;
+  padding: 0;
+}
+
+.Caja_Header_Tabla {
+  width: 40%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.Caja_Header_Datos {
+  height: 10rem;
+  width: 10rem;
+  margin: 0;
+  padding: 0;
+}
+
+.Caja_Header_Tabla-Titulo {
+  color: crimson;
+  font-size: 25px;
+  width: 15rem;
+  margin: 0;
+}
+
+.Caja_Header_Tabla-Info {
+  color: darkgray;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.Caja_Informacion-Foto {
+  padding: 0;
+  width: 15rem;
+  height: 15rem;
+  margin: 0 2rem;
+  border-radius: 7rem;
+  border-color: black;
+  border-style: groove;
+
+}
+
+.Caja_Informacion_Datos {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: left;
+  justify-items: left;
+  margin: 0 0 0 2;
+}
+
+.Caja_Informacion_Datos-Titulo {
+  padding-top: 0;
+  margin: 1rem 0rem;
+  font-size: 25px;
+  color: brown;
+}
+
+.Caja_Informacion_Datos-Subtitulo{
+  padding: 1px 2px;
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  color: black;
+}
+
+.Caja_Informacion_Datos-Info{
+  padding: 1px 2px;
+  margin: 6px 0;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: dimgrey;
+}
+
+.Barra {
+  width: 100%;
+  height: 5px;
+  background-color: brown;
+  border: 5px;
+  border-color: brown;
+  border-style: hidden;
+
+  margin: 0;
+  padding: 0;
+}

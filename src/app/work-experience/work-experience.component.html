@@ -1,0 +1,46 @@
+<article class="Contenedor">
+  <Section class="Titulo_Caja">
+    <h1 class="Titulo_Letra">Experiencia Laboral</h1>
+  </Section>
+
+  <table class="Tabla_Contenido">
+    <ul *ngFor="let work of Experiencia">
+
+      <tr>
+        <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">
+          {{ work.Empresa }}
+        </p>
+      </tr>
+
+      <tr>
+        <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">
+          {{ work.Puesto }}
+        </p>
+      </tr>
+
+      <tr>
+        <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Fecha">
+          {{ work.Fecha_Inicio }} a {{work.Fecha_Fin}}
+        </p>
+
+        <td>
+          <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Fecha">
+            {{ work.Ciudad }}, {{work.Pais}}
+          </p>
+        </td>
+      </tr>
+
+      <ul *ngFor="let logro of work.Logros">
+        <li>
+          <tr>
+            <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
+              {{logro}}
+            </p>
+          </tr>
+        </li>
+      </ul>
+    </ul>
+  </table>
+</article>
+
+
