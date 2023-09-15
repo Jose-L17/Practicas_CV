@@ -8,6 +8,9 @@ import { ExperienceComponent } from './experience/experience.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CertificadosComponent } from './certificados/certificados.component';
 
+import { InteresesComponent } from './intereses/intereses.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,6 +18,8 @@ import { CertificadosComponent } from './certificados/certificados.component';
     HeaderComponent,
     ExperienceComponent,
     CertificadosComponent,
+    InteresesComponent,
+
   ],
   imports: [BrowserModule, HttpClientModule],
   providers: [],
