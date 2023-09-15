@@ -1,0 +1,17 @@
+<article class="Contenedor">
+  <section class="Titulo_Caja">
+    <h1 class="Titulo_Letra">Intereses</h1>
+  </section>
+
+  <table class="Tabla_Contenido">
+    <ul *ngFor="let intereses of Arreglo.intereses">
+      <tr>
+        <li>
+          <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
+            {{ intereses }}
+          </p>
+        </li>
+      </tr>
+    </ul>
+  </table>
+</article>
