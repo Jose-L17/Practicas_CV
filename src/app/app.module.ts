@@ -7,7 +7,9 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { ExperienceComponent } from './experience/experience.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CertificadosComponent } from './certificados/certificados.component';
+
 import { InteresesComponent } from './intereses/intereses.component';
+
 
 @NgModule({
   declarations: [
@@ -17,6 +19,7 @@ import { InteresesComponent } from './intereses/intereses.component';
     ExperienceComponent,
     CertificadosComponent,
     InteresesComponent,
+
   ],
   imports: [BrowserModule, HttpClientModule],
   providers: [],
