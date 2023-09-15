@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CertificadosComponent } from './certificados/certificados.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
     WorkExperienceComponent,
     HeaderComponent,
     ExperienceComponent,
+    CertificadosComponent,
   ],
   imports: [BrowserModule, HttpClientModule],
   providers: [],
