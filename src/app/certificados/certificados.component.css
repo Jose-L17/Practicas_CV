@@ -1,0 +1,50 @@
+.Titulo_Caja {
+  display: flex;
+  flex-direction: column;
+
+  background-color: cadetblue;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  padding: 0;
+  width: 90%;
+}
+
+.Titulo_Letra{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  color: black;
+}
+
+.Tabla_Contenido {
+  width: 90%;
+}
+
+.Tabla_Contenido_Letra {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.Tabla_Contenido_Letra-Titulo {
+  font-size: 20px;
+  color: black;
+  margin: 0rem;
+}
+
+.Tabla_Contenido_Letra-Texto {
+  font-size: 20px;
+  color: darkgray;
+  margin: 0;
+}
+
+.Contenedor {
+  min-width: 100%;
+  margin-left: 50px;
+}
+

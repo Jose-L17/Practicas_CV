@@ -55,10 +55,10 @@
 .Caja_Informacion_Datos {
   display: flex;
   flex-direction: column;
-
+  min-width: 15vw;
   justify-content: left;
   justify-items: left;
-  margin: 0 0 0 2;
+  margin: 0 2rem 0 2;
 }
 
 .Caja_Informacion_Datos-Titulo {

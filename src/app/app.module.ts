@@ -4,20 +4,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
-
+import { ExperienceComponent } from './experience/experience.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CertificadosComponent } from './certificados/certificados.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    WorkExperienceComponent,
     HeaderComponent,
-    WorkExperienceComponent
+    ExperienceComponent,
+    CertificadosComponent,
   ],
-  imports: [
-    BrowserModule,
-    HttpClientModule
-  ],
+  imports: [BrowserModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

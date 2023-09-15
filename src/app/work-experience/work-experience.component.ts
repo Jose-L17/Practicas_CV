@@ -8,7 +8,7 @@ import { WorkExperienceService } from '../services/workexperience.service';
 })
 export class WorkExperienceComponent implements OnInit {
 
-  constructor( private workService: WorkExperienceService) { }
+  constructor( public workService: WorkExperienceService) { }
 
   Experiencia: any = [];
   Puesto: string = "fake";
@@ -20,10 +20,11 @@ export class WorkExperienceComponent implements OnInit {
   Logros: any = [];
 
   ngOnInit(): void {
-    this.workService.getWorkExperience()
+    this.workService.getHeader()
     .subscribe( (data: any) => {
       this.Experiencia = data
       console.log(data)
+      alert(data)
     })
   }
 
