@@ -1,11 +1,11 @@
-name: CI Angular app through GitHub Actions
+name: develop CI, CD workflows.
 on:
   push:
     branches: [ "develop"]
   pull_request:
     branches: [ "develop"]
 jobs:
-  build:
+  master-ci-cd:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -14,9 +14,18 @@ jobs:
         with:
           node-version: 16.x
 
-      - name: Setup
-        run: npm ci
+      - name: show dir
+        run: ls -la
 
+      - name: setup - npm instal
+        run: npm install
+
+      - name: show node modules
+        run: ls -la
+
+      - name: CI
+        run: npm ci
       - name: Test
         run: |
           npm test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
+        
