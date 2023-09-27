@@ -12,7 +12,7 @@ export class InteresesService {
 
   constructor(private http: HttpClient ) { }
 
-  apiUrl = 'http://localhost:8080/interest';
+  apiUrl = 'https://apicv-service-jose-l17.cloud.okteto.net/interest';
 
   httpOptions = {
     headers: new HttpHeaders ({
