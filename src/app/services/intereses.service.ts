@@ -11,7 +11,6 @@ export class InteresesService {
 
 
   constructor(private http: HttpClient ) { }
-
   apiUrl = 'https://apicv-service-jose-l17.cloud.okteto.net/interest';
 
   httpOptions = {
