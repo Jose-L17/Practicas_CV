@@ -11,7 +11,7 @@ export class SkillsService {
 
   constructor(private http: HttpClient ) { }
 
-  apiUrl = 'http://localhost:8080/skills';
+  apiUrl = 'https://apicv-service-jose-l17.cloud.okteto.net/skills';
 
   httpOptions = {
     headers: new HttpHeaders ({

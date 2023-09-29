@@ -11,7 +11,7 @@ export class CertificacionesService {
 
   constructor(private http: HttpClient ) { }
 
-  apiUrl = 'http://localhost:8080/certificados';
+  apiUrl = 'https://apicv-service-jose-l17.cloud.okteto.net/certificados';
 
   httpOptions = {
     headers: new HttpHeaders ({
